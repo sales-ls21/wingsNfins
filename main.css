@@ -1,0 +1,33 @@
+ 
+.clicker{
+width:200px;
+height:50px; 
+color:white; 
+text-align: center;
+background:red; 
+position:absolute;
+margin-left: 40%;
+margin-top: 27%;
+z-index:100;
+padding:10px;
+font-family:arial;
+border-radius: 10px;
+cursor: pointer;
+}
+
+#btn{
+	margin-top: 17%;
+}
+
+svg { 
+position:fixed;
+top:0;
+left:0;
+height:100%;
+width:100%
+}
+
+.svg-container{
+  z-index:1000;
+}
+
